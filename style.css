@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    
+   
+}
+.logo, .search, .hamburger{
+    cursor: pointer;
+}
+
+
+.Shortcuts{
+    background-color: #243040
+    
+}
+li{
+    display: inline-block;
+    padding: 6px;
+}
+a:link, a:visited{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul{
+    display: inline-block;
+}
+input{
+    width: 450px;
+    height: 4vh;
+}
+.Content{
+    background-image: url("https://github.com/Sid-Miram/amazon-clone-boilerplate/blob/main/assets/background%20picture.png?raw=true");
+    height: 40vh;
+}
+.item-1{
+    padding-top: 400px;
+    color: white;
+    
+    
+}
